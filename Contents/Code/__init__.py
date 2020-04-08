@@ -93,12 +93,11 @@ class DoubanAgent(Agent.Movies):
 			metadata.countries.add(country)
 
 		# Directors
-		metadata["directors"] = list()
+		metadata.directors.clear()
 		for director in m['directors']:
-			dic = dict()
-			dic["name"] = director["name"]
-			dic["photo"] = director["avatars"]["large"]
-			metadata.directors.add(dic)
+			meta_director = metadata.director.new()
+			meta_director.name = director["name"]
+			meta_director.photo = director["avatars"]["large"]
 
 		# Casts
 		metadata.roles.clear()
