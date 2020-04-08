@@ -95,7 +95,10 @@ class DoubanAgent(Agent.Movies):
 		# Directors
 		metadata["directors"] = list()
 		for director in m['directors']:
-			metadata.directors.add(director['name'])
+			dic = dict()
+			dic["name"] = director["name"]
+			dic["photo"] = director["avatars"]["large"]
+			metadata.directors.add(dic)
 
 		# Casts
 		metadata.roles.clear()
