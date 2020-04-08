@@ -1,11 +1,12 @@
-DOUBAN_API_KEY = ''
-#DOUBAN_API_SECRET = ''
-#DOUBAN_API_CALLBACK = 'http://localhost'
-#DOUBAN_ACCESS_TOKEN = ''
-#DOUBAN_PUBLIC_API_HOST = 'http://api.douban.com'
+DOUBAN_API_KEY = "0b2bdeda43b5688921839c8ecb20399b"
 
-DOUBAN_MOVIE_URL = "http://api.douban.com/v2/movie/"
-DOUBAN_MOVIE_SEARCH = DOUBAN_MOVIE_URL + 'search?q=%s&apikey=' + DOUBAN_API_KEY
+DOUBAN_API_URL = "http://api.douban.com/v2/"
+
+DOUBAN_MOVIE_URL = DOUBAN_API_URL + "movie/"
+DOUBAN_TV_Shows_URL = ""
+
+#DOUBAN_MOVIE_SEARCH = DOUBAN_MOVIE_URL + 'search?q=%s&apikey=' + DOUBAN_API_KEY
+DOUBAN_MOVIE_SEARCH = "https://movie.douban.com/j/subject_suggest?q=%s"
 DOUBAN_MOVIE_SUBJECT = DOUBAN_MOVIE_URL + 'subject/%s?apikey=' + DOUBAN_API_KEY
 #DOUBAN_MOVIE_BASE = 'http://movie.douban.com/subject/%s/'
 
@@ -20,64 +21,58 @@ class DoubanAgent(Agent.Movies):
 	contributes_to = ['com.plexapp.agents.imdb']
 
 	def search(self, results, media, lang):
-		#search_str = String.Quote(media.name + " " + media.year)
-		#rt = JSON.ObjectFromURL(DOUBAN_MOVIE_SEARCH % search_str, sleep=2.0, cacheTime=CACHE_1HOUR * 3)
 
-		#if not isinstance(rt, dict):
-		#	return
-
-		#if rt['total'] == 0:
 		search_str = String.Quote(media.name)
 		rt = JSON.ObjectFromURL(DOUBAN_MOVIE_SEARCH % search_str, sleep=2.0, cacheTime=CACHE_1HOUR * 3)
 
-		if rt['total'] == 0:
-			return
+		if len(rt)==0:
+			pass
+		else:
+			for i, movie in enumerate(rt):
+				if movie["type"] != "movie":
+					continue
 
-		for i, movie in enumerate(rt['subjects']):
-			if movie['subtype'] != 'movie':
-				continue
+				score = 90
 
-			score = 90
+				dist = String.LevenshteinDistance(movie["title"].lower(), media.name.lower())
+				dist = abs(dist)
 
-			dist = abs(String.LevenshteinDistance(
-											movie['title'].lower(),
-											media.name.lower()))
+				if "sub_title" in movie:
+					dist_sub = String.LevenshteinDistance(movie["sub_title"].lower(), media.name.lower())
+					dist_sub = abs(dist_sub)
+					if dist_sub<dist:
+						dist = dist_sub
 
-			if movie['original_title'] != movie['title']:
-					dist = min(abs(String.LevenshteinDistance(
-															movie['original_title'].lower(),
-															media.name.lower())), dist)
+				score = score - dist
 
-			score = score - dist
+				# Adjust score slightly for 'popularity' (helpful for similar or identical titles when no media.year is present)
+				score = score - (5 * i)
 
-			# Adjust score slightly for 'popularity' (helpful for similar or identical titles when no media.year is present)
-			score = score - (5 * i)
-
-			release_year = None
-			if 'year' in movie and movie['year'] != '':
-					try:
+				release_year = None
+				if "year" in movie and movie["year"]:
+						try:
 							release_year = int(movie['year'])
-					except:
+						except:
 							pass
 
-			media_year = None
-			try:
+				media_year = None
+				try:
 					media_year = int(media.year)
-			except:
+				except:
 					pass
 
-			if media.year and media_year > 1900 and release_year:
-					year_diff = abs(media_year - release_year)
-					if year_diff <= 1:
-							score = score + 10
-					else:
-							score = score - (5 * year_diff)
+				if media.year and media_year > 1900 and release_year:
+						year_diff = abs(media_year - release_year)
+						if year_diff <= 1:
+								score = score + 10
+						else:
+								score = score - (5 * year_diff)
 
-			if score <= 0:
-				continue
-			else:
-				# All parameters MUST be filled in order for Plex find these result.
-				results.Append(MetadataSearchResult(id=movie['id'], name=movie['title'], year=movie['year'], lang=lang, score=score))
+				if score <= 0:
+					continue
+				else:
+					# All parameters MUST be filled in order for Plex find these result.
+					results.Append(MetadataSearchResult(id=movie["id"], name=movie["title"], year=movie["year"], lang=lang, score=score))
 
 	def update(self, metadata, media, lang):
 		m = JSON.ObjectFromURL(DOUBAN_MOVIE_SUBJECT % metadata.id, sleep=2.0)
