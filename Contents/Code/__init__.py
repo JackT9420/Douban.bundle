@@ -93,7 +93,7 @@ class DoubanAgent(Agent.Movies):
 			metadata.countries.add(country)
 
 		# Directors
-		metadata.directors.clear()
+		metadata["directors"] = list()
 		for director in m['directors']:
 			metadata.directors.add(director['name'])
 
