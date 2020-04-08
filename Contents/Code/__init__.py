@@ -92,6 +92,13 @@ class DoubanAgent(Agent.Movies):
 		for country in m['countries']:
 			metadata.countries.add(country)
 
+		# Writers
+		metadata.writers.clear()
+		for writer in m["writers"]:
+			meta_writer = metadata.writers.new()
+			meta_writer.name = writer["name"]
+			meta_writer.photo = writer["avatars"]["large"]
+
 		# Directors
 		metadata.directors.clear()
 		for director in m['directors']:
@@ -99,11 +106,12 @@ class DoubanAgent(Agent.Movies):
 			meta_director.name = director["name"]
 			meta_director.photo = director["avatars"]["large"]
 
-		# Casts
+		# Roles 
 		metadata.roles.clear()
 		for cast in m['casts']:
-			role = metadata.roles.new()
-			role.actor = cast['name']
+			meta_role = metadata.roles.new()
+			meta_role.name = cast["name"]
+			meta_role.photo = cast["avatars"]["large"]
 
 		# Poster
 		if len(metadata.posters.keys()) == 0:
