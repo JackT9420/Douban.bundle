@@ -95,7 +95,7 @@ class DoubanAgent(Agent.Movies):
 		# Directors
 		metadata.directors.clear()
 		for director in m['directors']:
-			meta_director = metadata.director.new()
+			meta_director = metadata.directors.new()
 			meta_director.name = director["name"]
 			meta_director.photo = director["avatars"]["large"]
 
