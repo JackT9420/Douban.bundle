@@ -119,18 +119,18 @@ class DoubanAgent(Agent.Movies):
 			thumb_url = m['images']['small']
 			metadata.posters[poster_url] = Proxy.Preview(HTTP.Request(thumb_url), sort_order=1)
 
-class DoubanAgent(Agent.TV_Shows):
+class Douban(Agent.TV_Shows):
 	name = 'Douban'
 	languages = [Locale.Language.Chinese, Locale.Language.English]
 	primary_provider = True
-	accepts_from = ['com.plexapp.agents.localmedia', 'com.plexapp.agents.thetvdb']
+	accepts_from = ['com.plexapp.agents.localmedia']
 	contributes_to = ['com.plexapp.agents.thetvdb']
 
 	def search(self, results, media, lang):
-
-		search_str = String.Quote(media.name)
+		Log(" giakefagnakj,g")
+		search_str = String.Quote(media.show)
 		rt = JSON.ObjectFromURL(DOUBAN_MOVIE_SEARCH % search_str, sleep=2.0, cacheTime=CACHE_1HOUR * 3)
-
+		Log(DOUBAN_MOVIE_SEARCH % search_str)
 		if len(rt)==0:
 			pass
 		else:
@@ -140,11 +140,11 @@ class DoubanAgent(Agent.TV_Shows):
 
 				score = 90
 
-				dist = String.LevenshteinDistance(movie["title"].lower(), media.name.lower())
+				dist = String.LevenshteinDistance(movie["title"].lower(), media.show.lower())
 				dist = abs(dist)
 
 				if "sub_title" in movie:
-					dist_sub = String.LevenshteinDistance(movie["sub_title"].lower(), media.name.lower())
+					dist_sub = String.LevenshteinDistance(movie["sub_title"].lower(), media.show.lower())
 					dist_sub = abs(dist_sub)
 					if dist_sub<dist:
 						dist = dist_sub
@@ -197,20 +197,6 @@ class DoubanAgent(Agent.TV_Shows):
 		metadata.countries.clear()
 		for country in m['countries']:
 			metadata.countries.add(country)
-
-		# Writers
-		metadata.writers.clear()
-		for writer in m["writers"]:
-			meta_writer = metadata.writers.new()
-			meta_writer.name = writer["name"]
-			meta_writer.photo = writer["avatars"]["large"]
-
-		# Directors
-		metadata.directors.clear()
-		for director in m['directors']:
-			meta_director = metadata.directors.new()
-			meta_director.name = director["name"]
-			meta_director.photo = director["avatars"]["large"]
 
 		# Roles 
 		metadata.roles.clear()
