@@ -3,7 +3,6 @@ DOUBAN_API_KEY = "0b2bdeda43b5688921839c8ecb20399b"
 DOUBAN_API_URL = "http://api.douban.com/v2/"
 
 DOUBAN_MOVIE_URL = DOUBAN_API_URL + "movie/"
-DOUBAN_TV_Shows_URL = ""
 
 #DOUBAN_MOVIE_SEARCH = DOUBAN_MOVIE_URL + 'search?q=%s&apikey=' + DOUBAN_API_KEY
 DOUBAN_MOVIE_SEARCH = "https://movie.douban.com/j/subject_suggest?q=%s"
@@ -11,9 +10,9 @@ DOUBAN_MOVIE_SUBJECT = DOUBAN_MOVIE_URL + 'subject/%s?apikey=' + DOUBAN_API_KEY
 #DOUBAN_MOVIE_BASE = 'http://movie.douban.com/subject/%s/'
 
 # My server config
-my_server = "www.cnyanpan.top:8080/"
-DOUBAN_CELEBRITIES = my_server + "/celebrities?id=%s"
-DOUBAN_EPISODES = my_server + "/episodes?id=%s&episodes=%s"
+my_server = "http://www.cnyanpan.top:8080/"
+DOUBAN_CELEBRITIES = my_server + "celebrities?id=%s"
+DOUBAN_EPISODES = my_server + "episodes?id=%s&episodes=%s"
 
 def Start():
 	HTTP.CacheTime = CACHE_1WEEK
@@ -118,7 +117,7 @@ class DoubanAgent(Agent.Movies):
 			meta_role = metadata.roles.new()
 			meta_role.name = cast["name"]
 			meta_role.role = cast["role"]
-			meta_role.photo = cast["photos"]
+			meta_role.photo = cast["photo"]
 
 		# Poster
 		if len(metadata.posters.keys()) == 0:
@@ -211,7 +210,7 @@ class Douban(Agent.TV_Shows):
 			meta_role = metadata.roles.new()
 			meta_role.name = cast["name"]
 			meta_role.role = cast["role"]
-			meta_role.photo = cast["photos"]
+			meta_role.photo = cast["photo"]
 
 		# Poster
 		if len(metadata.posters.keys()) == 0:
@@ -222,9 +221,10 @@ class Douban(Agent.TV_Shows):
 		# Episodes
 		# Can get each episode in one page to parallelize
 		# Need to modify the api
-		episodes = JSON.ObjectFromURL(DOUBAN_EPISODES % (metadata.id, m["episodes_count"]))
+		episodes = JSON.ObjectFromURL(DOUBAN_EPISODES % (metadata.id, m["episodes_count"]), sleep=20.0)
 		# Set the season default value as 1
 		# How to deal with the different season in Douban?
+		season_number = str(1)
 		for i in range(int(m["episodes_count"])):
 			key = str(i+1)
 			episode = metadata.seasons[season_number].episodes[key]
