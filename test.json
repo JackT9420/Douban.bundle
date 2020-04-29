@@ -1,0 +1,655 @@
+{
+	"rating": {
+		"max": 10,
+		"average": 7.3,
+		"details": {
+			"1": 73.0,
+			"3": 2760.0,
+			"2": 441.0,
+			"5": 1285.0,
+			"4": 2995.0
+		},
+		"stars": "40",
+		"min": 0
+	},
+	"reviews_count": 114,
+	"videos": [
+		{
+			"source": {
+				"literal": "qq",
+				"pic": "http://img3.doubanio.com\/f\/movie\/0a74f4379607fa731489d7f34daa545df9481fa0\/pics\/movie\/video-qq.png",
+				"name": "\u817e\u8baf\u89c6\u9891"
+			},
+			"sample_link": "http:\/\/v.qq.com\/x\/cover\/ob3ji0mt2leqz1c.html?ptag=douban.movie",
+			"video_id": "ob3ji0mt2leqz1c",
+			"need_pay": true
+		},
+		{
+			"source": {
+				"literal": "iqiyi",
+				"pic": "http://img9.doubanio.com\/f\/movie\/7c9e516e02c6fe445b6559c0dd2a705e8b17d1c9\/pics\/movie\/video-iqiyi.png",
+				"name": "\u7231\u5947\u827a\u89c6\u9891"
+			},
+			"sample_link": "http:\/\/www.iqiyi.com\/v_19rs7u9ve0.html?vfm=m_331_dbdy&fv=4904d94982104144a1548dd9040df241",
+			"video_id": "19rs7u9ve0",
+			"need_pay": true
+		},
+		{
+			"source": {
+				"literal": "youku",
+				"pic": "http://img1.doubanio.com\/f\/movie\/886b26a83d18bc60de4ee1daac38145f03c88792\/pics\/movie\/video-youku.png",
+				"name": "\u4f18\u9177\u89c6\u9891"
+			},
+			"sample_link": "http:\/\/v.youku.com\/v_show\/id_XNDI0NzM1MjA4MA==.html?tpa=dW5pb25faWQ9MzAwMDA4XzEwMDAwMl8wMl8wMQ&refer=esfhz_operation.xuka.xj_00003036_000000_FNZfau_19010900",
+			"video_id": "XNDI0NzM1MjA4MA==",
+			"need_pay": true
+		},
+		{
+			"source": {
+				"literal": "mgtv",
+				"pic": "http://img1.doubanio.com\/f\/movie\/83fb8b3d6bf053125660308a9ecbf91087434263\/pics\/movie\/video-mgtv.png",
+				"name": "\u8292\u679cTV"
+			},
+			"sample_link": "http:\/\/www.mgtv.com\/b\/330354\/5932853.html?cxid=94l62sj44",
+			"video_id": "5932853",
+			"need_pay": true
+		},
+		{
+			"source": {
+				"literal": "bilibili",
+				"pic": "http://img9.doubanio.com\/f\/movie\/f536fe0ea1cbb0914658ae803125d078351f9047\/pics\/movie\/video-bilibili.png",
+				"name": "\u54d4\u54e9\u54d4\u54e9"
+			},
+			"sample_link": "https:\/\/www.bilibili.com\/bangumi\/play\/ss28046?bsource=douban",
+			"video_id": "ss28046",
+			"need_pay": false
+		}
+	],
+	"wish_count": 21444,
+	"original_title": "\u30c9\u30e9\u30b4\u30f3\u30dc\u30fc\u30eb\u8d85 \u30d6\u30ed\u30ea\u30fc",
+	"blooper_urls": [
+		"http:\/\/vt1.doubanio.com\/202004081811\/1aea832f8c27779b495c557a8fa46919\/view\/movie\/M\/302400004.mp4",
+		"http:\/\/vt1.doubanio.com\/202004081811\/b628e4f705d59534a910dadc3290e11a\/view\/movie\/M\/302390020.mp4"
+	],
+	"collect_count": 58974,
+	"images": {
+		"small": "http://img3.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2557371503.webp",
+		"large": "http://img3.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2557371503.webp",
+		"medium": "http://img3.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2557371503.webp"
+	},
+	"douban_site": "",
+	"year": "2018",
+	"popular_comments": [
+		{
+			"rating": {
+				"max": 5,
+				"value": 3.0,
+				"min": 0
+			},
+			"useful_count": 38,
+			"author": {
+				"uid": "MeloTheFisher",
+				"avatar": "http://img9.doubanio.com\/icon\/u60115789-24.jpg",
+				"signature": "\u7709\u6bdb\u5feb\u6bd4\u773c\u775b\u7c97\u4e86",
+				"alt": "https:\/\/www.douban.com\/people\/MeloTheFisher\/",
+				"id": "60115789",
+				"name": "\u70df\u6ce2\u4eba\u957f\u5b89"
+			},
+			"subject_id": "27607378",
+			"content": "\u8c01\u80fd\u60f3\u5230\uff0c\u5728\u609f\u7a7a\u548c\u8d1d\u5409\u5854\u7814\u7a76\u5408\u4f53\uff08\u5b57\u9762\u610f\u601d\uff09\u7684\u5173\u952e\u65f6\u523b\uff0c\u662f\u5f17\u5229\u8428\u4e3a\u5730\u7403\u4eba\u4e89\u53d6\u4e86\u5b9d\u8d35\u7684\u4e00\u4e2a\u5c0f\u65f6\u3002\u3002\u3002\u3002",
+			"created_at": "2019-05-26 15:15:37",
+			"id": "1799877888"
+		},
+		{
+			"rating": {
+				"max": 5,
+				"value": 3.0,
+				"min": 0
+			},
+			"useful_count": 297,
+			"author": {
+				"uid": "56922790",
+				"avatar": "http://img1.doubanio.com\/icon\/u56922790-58.jpg",
+				"signature": "",
+				"alt": "https:\/\/www.douban.com\/people\/56922790\/",
+				"id": "56922790",
+				"name": "\u54fc\u54fc.floweray"
+			},
+			"subject_id": "27607378",
+			"content": "\u8d64\u6a59\u9ec4\u7eff\u9752\u84dd\u7d2b,\u53ea\u8ba4\u8d85\u4e8c\u5f53\u609f\u7a7a\u3002",
+			"created_at": "2019-02-13 08:12:08",
+			"id": "1672219928"
+		},
+		{
+			"rating": {
+				"max": 5,
+				"value": 3.0,
+				"min": 0
+			},
+			"useful_count": 74,
+			"author": {
+				"uid": "jeffersontang",
+				"avatar": "http://img3.doubanio.com\/icon\/u51818484-120.jpg",
+				"signature": "\u597d\u9152\u53ca\u8272",
+				"alt": "https:\/\/www.douban.com\/people\/jeffersontang\/",
+				"id": "51818484",
+				"name": "\u5927\u89c9\u8001\u72d7"
+			},
+			"subject_id": "27607378",
+			"content": "\u53ef\u4ee5\uff0c\u67d3\u53d1\u5242\u591f\u7528\u5c31\u53ef\u4ee5\u3002\u5b9e\u5728\u4e0d\u884c\u518d\u5408\u4f53\u4e5f\u884c\uff0c\u5bf9\u65b9\u518d\u5f3a\u4e5f\u662f\u4e0d\u7ecf\u6253\u7684",
+			"created_at": "2019-02-19 07:00:49",
+			"id": "1683254735"
+		},
+		{
+			"rating": {
+				"max": 5,
+				"value": 5.0,
+				"min": 0
+			},
+			"useful_count": 100,
+			"author": {
+				"uid": "162120442",
+				"avatar": "http://img3.doubanio.com\/icon\/u162120442-2.jpg",
+				"signature": "",
+				"alt": "https:\/\/www.douban.com\/people\/162120442\/",
+				"id": "162120442",
+				"name": "\u53f2\u8482\u592b"
+			},
+			"subject_id": "27607378",
+			"content": "\u65e0\u6127\u201c\u5e73\u6210\u6700\u540e\u7684\u6700\u5f3a\u52a8\u4f5c\u7535\u5f71\u201d\u4e4b\u540d",
+			"created_at": "2018-12-16 15:42:58",
+			"id": "1574564177"
+		}
+	],
+	"alt": "https:\/\/movie.douban.com\/subject\/27607378\/",
+	"id": "27607378",
+	"mobile_url": "https:\/\/movie.douban.com\/subject\/27607378\/mobile",
+	"photos_count": 447,
+	"pubdate": "2019-05-24",
+	"title": "\u9f99\u73e0\u8d85\uff1a\u5e03\u7f57\u5229",
+	"do_count": null,
+	"has_video": true,
+	"share_url": "http:\/\/m.douban.com\/movie\/subject\/27607378",
+	"seasons_count": null,
+	"languages": [
+		"\u65e5\u8bed"
+	],
+	"schedule_url": "",
+	"writers": [
+		{
+			"avatars": {
+				"small": "http://img1.doubanio.com\/view\/celebrity\/s_ratio_celebrity\/public\/p12847.webp",
+				"large": "http://img1.doubanio.com\/view\/celebrity\/s_ratio_celebrity\/public\/p12847.webp",
+				"medium": "http://img1.doubanio.com\/view\/celebrity\/s_ratio_celebrity\/public\/p12847.webp"
+			},
+			"name_en": "Akira Toriyama",
+			"name": "\u9e1f\u5c71\u660e",
+			"alt": "https:\/\/movie.douban.com\/celebrity\/1002904\/",
+			"id": "1002904"
+		}
+	],
+	"pubdates": [
+		"2018-12-14(\u65e5\u672c)",
+		"2019-05-24(\u4e2d\u56fd\u5927\u9646)"
+	],
+	"website": "www.dbmovie-20th.com",
+	"tags": [
+		"\u9f99\u73e0",
+		"\u65e5\u672c",
+		"\u52a8\u753b",
+		"\u52a8\u6f2b",
+		"\u52a8\u4f5c",
+		"\u70ed\u8840",
+		"2018",
+		"\u60c5\u6000",
+		"\u7ae5\u5e74",
+		"\u5947\u5e7b"
+	],
+	"has_schedule": false,
+	"durations": [
+		"100\u5206\u949f"
+	],
+	"genres": [
+		"\u52a8\u4f5c",
+		"\u52a8\u753b",
+		"\u5947\u5e7b"
+	],
+	"collection": null,
+	"trailers": [
+		{
+			"medium": "http://img3.doubanio.com\/img\/trailer\/medium\/2557900442.jpg?",
+			"title": "\u4e2d\u56fd\u9884\u544a\u7247\uff1a\u51b3\u6218\u8fdb\u884c\u65f6\u7248",
+			"subject_id": "27607378",
+			"alt": "https:\/\/movie.douban.com\/trailer\/247690\/",
+			"small": "http://img3.doubanio.com\/img\/trailer\/small\/2557900442.jpg?",
+			"resource_url": "http:\/\/vt1.doubanio.com\/202004081811\/82991f00ade4b1545528997ac354384e\/view\/movie\/M\/302470690.mp4",
+			"id": "247690"
+		},
+		{
+			"medium": "http://img3.doubanio.com\/img\/trailer\/medium\/2557142371.jpg?",
+			"title": "\u4e2d\u56fd\u9884\u544a\u7247\uff1a\u7ec8\u6781\u7248 (\u4e2d\u6587\u5b57\u5e55)",
+			"subject_id": "27607378",
+			"alt": "https:\/\/movie.douban.com\/trailer\/247310\/",
+			"small": "http://img3.doubanio.com\/img\/trailer\/small\/2557142371.jpg?",
+			"resource_url": "http:\/\/vt1.doubanio.com\/202004081811\/3397083ec4f453f080c135095cffd328\/view\/movie\/M\/302470310.mp4",
+			"id": "247310"
+		},
+		{
+			"medium": "http://img3.doubanio.com\/img\/trailer\/medium\/2556626193.jpg?",
+			"title": "\u4e2d\u56fd\u9884\u544a\u7247\uff1a\u6700\u5f3avs\u6700\u5f3a\u7248 (\u4e2d\u6587\u5b57\u5e55)",
+			"subject_id": "27607378",
+			"alt": "https:\/\/movie.douban.com\/trailer\/247003\/",
+			"small": "http://img3.doubanio.com\/img\/trailer\/small\/2556626193.jpg?",
+			"resource_url": "http:\/\/vt1.doubanio.com\/202004081811\/03b85ecbef375d113a540dc04bca1ae2\/view\/movie\/M\/302470003.mp4",
+			"id": "247003"
+		},
+		{
+			"medium": "http://img3.doubanio.com\/img\/trailer\/medium\/2554797091.jpg?",
+			"title": "\u4e2d\u56fd\u9884\u544a\u7247\uff1a\u5b9a\u6863\u7248 (\u4e2d\u6587\u5b57\u5e55)",
+			"subject_id": "27607378",
+			"alt": "https:\/\/movie.douban.com\/trailer\/246369\/",
+			"small": "http://img3.doubanio.com\/img\/trailer\/small\/2554797091.jpg?",
+			"resource_url": "http:\/\/vt1.doubanio.com\/202004081811\/1a06b548d649d8b9f524232e7699a9af\/view\/movie\/M\/302460369.mp4",
+			"id": "246369"
+		}
+	],
+	"episodes_count": null,
+	"trailer_urls": [
+		"http:\/\/vt1.doubanio.com\/202004081811\/82991f00ade4b1545528997ac354384e\/view\/movie\/M\/302470690.mp4",
+		"http:\/\/vt1.doubanio.com\/202004081811\/3397083ec4f453f080c135095cffd328\/view\/movie\/M\/302470310.mp4",
+		"http:\/\/vt1.doubanio.com\/202004081811\/03b85ecbef375d113a540dc04bca1ae2\/view\/movie\/M\/302470003.mp4",
+		"http:\/\/vt1.doubanio.com\/202004081811\/1a06b548d649d8b9f524232e7699a9af\/view\/movie\/M\/302460369.mp4"
+	],
+	"has_ticket": false,
+	"bloopers": [
+		{
+			"medium": "http://img9.doubanio.com\/img\/trailer\/medium\/2541201064.jpg?",
+			"title": "MV",
+			"subject_id": "27607378",
+			"alt": "https:\/\/movie.douban.com\/trailer\/240004\/",
+			"small": "http://img9.doubanio.com\/img\/trailer\/small\/2541201064.jpg?",
+			"resource_url": "http:\/\/vt1.doubanio.com\/202004081811\/1aea832f8c27779b495c557a8fa46919\/view\/movie\/M\/302400004.mp4",
+			"id": "240004"
+		},
+		{
+			"medium": "http://img3.doubanio.com\/img\/trailer\/medium\/2539340151.jpg?",
+			"title": "MV",
+			"subject_id": "27607378",
+			"alt": "https:\/\/movie.douban.com\/trailer\/239020\/",
+			"small": "http://img3.doubanio.com\/img\/trailer\/small\/2539340151.jpg?",
+			"resource_url": "http:\/\/vt1.doubanio.com\/202004081811\/b628e4f705d59534a910dadc3290e11a\/view\/movie\/M\/302390020.mp4",
+			"id": "239020"
+		}
+	],
+	"clip_urls": [
+		"http:\/\/vt1.doubanio.com\/202004081811\/b570885d763e8d460c500eb478e77c87\/view\/movie\/M\/302470780.mp4"
+	],
+	"current_season": null,
+	"casts": [
+		{
+			"avatars": {
+				"small": "http://img3.doubanio.com\/view\/celebrity\/s_ratio_celebrity\/public\/p26240.webp",
+				"large": "http://img3.doubanio.com\/view\/celebrity\/s_ratio_celebrity\/public\/p26240.webp",
+				"medium": "http://img3.doubanio.com\/view\/celebrity\/s_ratio_celebrity\/public\/p26240.webp"
+			},
+			"name_en": "Masako Nozawa",
+			"name": "\u91ce\u6cfd\u96c5\u5b50",
+			"alt": "https:\/\/movie.douban.com\/celebrity\/1041488\/",
+			"id": "1041488"
+		},
+		{
+			"avatars": {
+				"small": "http://img9.doubanio.com\/view\/celebrity\/s_ratio_celebrity\/public\/p9676.webp",
+				"large": "http://img9.doubanio.com\/view\/celebrity\/s_ratio_celebrity\/public\/p9676.webp",
+				"medium": "http://img9.doubanio.com\/view\/celebrity\/s_ratio_celebrity\/public\/p9676.webp"
+			},
+			"name_en": "Ry\u00f4 Horikawa",
+			"name": "\u5800\u5ddd\u4eae",
+			"alt": "https:\/\/movie.douban.com\/celebrity\/1008133\/",
+			"id": "1008133"
+		},
+		{
+			"avatars": {
+				"small": "http://img3.doubanio.com\/view\/celebrity\/s_ratio_celebrity\/public\/p10280.webp",
+				"large": "http://img3.doubanio.com\/view\/celebrity\/s_ratio_celebrity\/public\/p10280.webp",
+				"medium": "http://img3.doubanio.com\/view\/celebrity\/s_ratio_celebrity\/public\/p10280.webp"
+			},
+			"name_en": "Aya Hisakawa",
+			"name": "\u4e45\u5ddd\u7eeb",
+			"alt": "https:\/\/movie.douban.com\/celebrity\/1042157\/",
+			"id": "1042157"
+		},
+		{
+			"avatars": {
+				"small": "http://img3.doubanio.com\/view\/celebrity\/s_ratio_celebrity\/public\/p20411.webp",
+				"large": "http://img3.doubanio.com\/view\/celebrity\/s_ratio_celebrity\/public\/p20411.webp",
+				"medium": "http://img3.doubanio.com\/view\/celebrity\/s_ratio_celebrity\/public\/p20411.webp"
+			},
+			"name_en": "Toshio Furukawa",
+			"name": "\u53e4\u5ddd\u767b\u5fd7\u592b",
+			"alt": "https:\/\/movie.douban.com\/celebrity\/1012736\/",
+			"id": "1012736"
+		}
+	],
+	"countries": [
+		"\u65e5\u672c"
+	],
+	"mainland_pubdate": "2019-05-24",
+	"photos": [
+		{
+			"thumb": "https://img1.doubanio.com\/view\/photo\/m\/public\/p2548045538.webp",
+			"image": "https://img1.doubanio.com\/view\/photo\/l\/public\/p2548045538.webp",
+			"cover": "https://img1.doubanio.com\/view\/photo\/sqs\/public\/p2548045538.webp",
+			"alt": "https:\/\/movie.douban.com\/photos\/photo\/2548045538\/",
+			"id": "2548045538",
+			"icon": "https://img1.doubanio.com\/view\/photo\/s\/public\/p2548045538.webp"
+		},
+		{
+			"thumb": "https://img3.doubanio.com\/view\/photo\/m\/public\/p2560399412.webp",
+			"image": "https://img3.doubanio.com\/view\/photo\/l\/public\/p2560399412.webp",
+			"cover": "https://img3.doubanio.com\/view\/photo\/sqs\/public\/p2560399412.webp",
+			"alt": "https:\/\/movie.douban.com\/photos\/photo\/2560399412\/",
+			"id": "2560399412",
+			"icon": "https://img3.doubanio.com\/view\/photo\/s\/public\/p2560399412.webp"
+		},
+		{
+			"thumb": "https://img9.doubanio.com\/view\/photo\/m\/public\/p2559550766.webp",
+			"image": "https://img9.doubanio.com\/view\/photo\/l\/public\/p2559550766.webp",
+			"cover": "https://img9.doubanio.com\/view\/photo\/sqs\/public\/p2559550766.webp",
+			"alt": "https:\/\/movie.douban.com\/photos\/photo\/2559550766\/",
+			"id": "2559550766",
+			"icon": "https://img9.doubanio.com\/view\/photo\/s\/public\/p2559550766.webp"
+		},
+		{
+			"thumb": "https://img9.doubanio.com\/view\/photo\/m\/public\/p2559550765.webp",
+			"image": "https://img9.doubanio.com\/view\/photo\/l\/public\/p2559550765.webp",
+			"cover": "https://img9.doubanio.com\/view\/photo\/sqs\/public\/p2559550765.webp",
+			"alt": "https:\/\/movie.douban.com\/photos\/photo\/2559550765\/",
+			"id": "2559550765",
+			"icon": "https://img9.doubanio.com\/view\/photo\/s\/public\/p2559550765.webp"
+		},
+		{
+			"thumb": "https://img3.doubanio.com\/view\/photo\/m\/public\/p2559550763.webp",
+			"image": "https://img3.doubanio.com\/view\/photo\/l\/public\/p2559550763.webp",
+			"cover": "https://img3.doubanio.com\/view\/photo\/sqs\/public\/p2559550763.webp",
+			"alt": "https:\/\/movie.douban.com\/photos\/photo\/2559550763\/",
+			"id": "2559550763",
+			"icon": "https://img3.doubanio.com\/view\/photo\/s\/public\/p2559550763.webp"
+		},
+		{
+			"thumb": "https://img3.doubanio.com\/view\/photo\/m\/public\/p2559550762.webp",
+			"image": "https://img3.doubanio.com\/view\/photo\/l\/public\/p2559550762.webp",
+			"cover": "https://img3.doubanio.com\/view\/photo\/sqs\/public\/p2559550762.webp",
+			"alt": "https:\/\/movie.douban.com\/photos\/photo\/2559550762\/",
+			"id": "2559550762",
+			"icon": "https://img3.doubanio.com\/view\/photo\/s\/public\/p2559550762.webp"
+		},
+		{
+			"thumb": "https://img3.doubanio.com\/view\/photo\/m\/public\/p2559550761.webp",
+			"image": "https://img3.doubanio.com\/view\/photo\/l\/public\/p2559550761.webp",
+			"cover": "https://img3.doubanio.com\/view\/photo\/sqs\/public\/p2559550761.webp",
+			"alt": "https:\/\/movie.douban.com\/photos\/photo\/2559550761\/",
+			"id": "2559550761",
+			"icon": "https://img3.doubanio.com\/view\/photo\/s\/public\/p2559550761.webp"
+		},
+		{
+			"thumb": "https://img3.doubanio.com\/view\/photo\/m\/public\/p2559550760.webp",
+			"image": "https://img3.doubanio.com\/view\/photo\/l\/public\/p2559550760.webp",
+			"cover": "https://img3.doubanio.com\/view\/photo\/sqs\/public\/p2559550760.webp",
+			"alt": "https:\/\/movie.douban.com\/photos\/photo\/2559550760\/",
+			"id": "2559550760",
+			"icon": "https://img3.doubanio.com\/view\/photo\/s\/public\/p2559550760.webp"
+		},
+		{
+			"thumb": "https://img1.doubanio.com\/view\/photo\/m\/public\/p2559550759.webp",
+			"image": "https://img1.doubanio.com\/view\/photo\/l\/public\/p2559550759.webp",
+			"cover": "https://img1.doubanio.com\/view\/photo\/sqs\/public\/p2559550759.webp",
+			"alt": "https:\/\/movie.douban.com\/photos\/photo\/2559550759\/",
+			"id": "2559550759",
+			"icon": "https://img1.doubanio.com\/view\/photo\/s\/public\/p2559550759.webp"
+		},
+		{
+			"thumb": "https://img1.doubanio.com\/view\/photo\/m\/public\/p2559550758.webp",
+			"image": "https://img1.doubanio.com\/view\/photo\/l\/public\/p2559550758.webp",
+			"cover": "https://img1.doubanio.com\/view\/photo\/sqs\/public\/p2559550758.webp",
+			"alt": "https:\/\/movie.douban.com\/photos\/photo\/2559550758\/",
+			"id": "2559550758",
+			"icon": "https://img1.doubanio.com\/view\/photo\/s\/public\/p2559550758.webp"
+		}
+	],
+	"summary": "\u5168\u65b0\u7684\u201c\u8d5b\u4e9a\u4eba\u201d\u6545\u4e8b\u3002\u529b\u91cf\u5927\u4f1a\u540e\uff0c\u609f\u7a7a\u4e86\u89e3\u5230\u5b87\u5b99\u4e2d\u8fd8\u5b58\u5728\u7740\u81ea\u5df1\u672a\u66fe\u89c1\u8fc7\u7684 \u5f3a\u8005\u3002\u67d0\u5929\uff0c\u73b0\u8eab\u4e8e\u609f\u7a7a\u548c\u8d1d\u5409\u8fbe\u9762\u524d\u7684\u662f\u4ece\u672a\u89c1\u8fc7\u7684\u8d5b \u4e9a\u4eba\u5e03\u7f57\u5229\u3002\u4e09\u4e2a\u8d70\u4e0a\u5b8c\u5168\u4e0d\u540c\u9053\u8def\u7684\u8d5b\u4e9a\u4eba\uff0c\u4e3a\u96c6\u9f50\u4e03 \u9f99\u73e0\u610f\u5916\u76f8\u9047\uff0c\u4ece\u5730\u72f1\u4e2d\u518d\u5ea6\u5f52\u6765\u7684\u5f17\u5229\u8428\u4e5f\u88ab\u5377\u5165\u5176\u4e2d\uff0c \u5730\u7403\u5c06\u7206\u53d1\u4e00\u573a\u58ee\u70c8\u6218\u6597\u2026\u2026",
+	"clips": [
+		{
+			"medium": "http://img3.doubanio.com\/img\/trailer\/medium\/2558074141.jpg?",
+			"title": "\u7247\u6bb5",
+			"subject_id": "27607378",
+			"alt": "https:\/\/movie.douban.com\/trailer\/247780\/",
+			"small": "http://img3.doubanio.com\/img\/trailer\/small\/2558074141.jpg?",
+			"resource_url": "http:\/\/vt1.doubanio.com\/202004081811\/b570885d763e8d460c500eb478e77c87\/view\/movie\/M\/302470780.mp4",
+			"id": "247780"
+		}
+	],
+	"subtype": "movie",
+	"directors": [
+		{
+			"avatars": {
+				"small": "http://img9.doubanio.com\/view\/celebrity\/s_ratio_celebrity\/public\/p1506337656.05.webp",
+				"large": "http://img9.doubanio.com\/view\/celebrity\/s_ratio_celebrity\/public\/p1506337656.05.webp",
+				"medium": "http://img9.doubanio.com\/view\/celebrity\/s_ratio_celebrity\/public\/p1506337656.05.webp"
+			},
+			"name_en": "Tatsuya Nagamine",
+			"name": "\u957f\u5cf0\u8fbe\u4e5f",
+			"alt": "https:\/\/movie.douban.com\/celebrity\/1324215\/",
+			"id": "1324215"
+		}
+	],
+	"comments_count": 12266,
+	"popular_reviews": [
+		{
+			"rating": {
+				"max": 5,
+				"value": 5.0,
+				"min": 0
+			},
+			"title": "\u620f\u8bf4\u4e0d\u662f\u80e1\u8bf4\uff0c\u6539\u7f16\u4e0d\u662f\u4e71\u7f16",
+			"subject_id": "27607378",
+			"author": {
+				"uid": "mbbbbbbbcker",
+				"avatar": "http://img9.doubanio.com\/icon\/u45066005-6.jpg",
+				"signature": "\u4f60\u5011\u4e2d\u51fa\u4e86\u4e00\u500b\u53db\u5f92",
+				"alt": "https:\/\/www.douban.com\/people\/mbbbbbbbcker\/",
+				"id": "45066005",
+				"name": "\u9a6c\u6cfd\u5c14\u6cd5\u514b\u5c14"
+			},
+			"summary": "\u5bb3\u6015\u88ab\u5267\u900f\u7684\u4f60\u5047\u5982\u672a\u770b\u8fc7\u6b63\u7247\u5c31\u5148\u9605\u8bfb\u4ee5\u4e0b\u6587\u5b57\uff0c\u53ef\u80fd\u4f1a\u5e0c\u671b\u81ea\u5df1\u5c31\u50cf\u521d\u5230\u5730\u7403\u7684\u5361\u5361\u7f57\u7279\u4e00\u6837\u649e\u4f24\u8111\u5b50\u5931\u53bb\u8bb0\u5fc6\u3002 \u539f\u4ee5\u4e3a\u662f\u65e5\u97f3\u82f1\u5b57\u751a\u81f3\u65e5\u97f3\u4e2d\u5b57\uff08\u534e\u4eba\u7279\u4f9b\u7247\u300a\u94f6\u9b422\u300b\u7684\u89c2\u5f71\u7ecf\u5386\u8ba9\u6211\u4ea7\u751f\u4e86\u4e0d\u5207\u5b9e\u9645\u7684\u671f\u5f85\uff09\uff0c\u6700\u540e...",
+			"alt": "https:\/\/movie.douban.com\/review\/9923274\/",
+			"id": "9923274"
+		},
+		{
+			"rating": {
+				"max": 5,
+				"value": 4.0,
+				"min": 0
+			},
+			"title": "\u8fd9\u662f\u6700\u6b63\u7edf\u3001\u6700\u611f\u4eba\u7684\u609f\u7a7a\u8d77\u6e90",
+			"subject_id": "27607378",
+			"author": {
+				"uid": "178131964",
+				"avatar": "http://img3.doubanio.com\/icon\/u178131964-2.jpg",
+				"signature": "\u62db\u52df\u7535\u5f71\u8fbe\u4ebahr@shijuezhi.cn",
+				"alt": "https:\/\/www.douban.com\/people\/178131964\/",
+				"id": "178131964",
+				"name": "\u5f71\u63a2"
+			},
+			"summary": "\u9996\u53d1\u4e8e\u516c\u4f17\u53f7\u201c\u5f71\u63a2\u201dID\uff1attyingtan \u5fae\u535a\uff1a\u5f71\u63a2\u63a2\u957f \u4f5c\u8005\uff1a\u63a2\u957f \u8f6c\u8f7d\u8bf7\u6ce8\u660e\u51fa\u5904 \u5982\u679c\u95ee\u4e00\u4e2a\u7537\u5b69\u6700\u60f3\u7ec3\u4ec0\u4e48\u6b66\u6797\u7edd\u5b66\u3002 \u9664\u4e86\u516d\u8109\u795e\u5251\u3001\u5982\u6765\u795e\u638c\u4e4b\u7c7b\uff0c\u4ed6\u7edd\u5bf9\u8fd8\u4f1a\u63d0\u5230\u4e00\u95e8\u53eb\u505a\u201c\u5361\u6885\u54c8\u6885\u54c8\u201d\u7684\u529f\u592b\u2014\u2014\u9f9f\u6d3e\u6c14\u529f\u3002 \u6c5f...",
+			"alt": "https:\/\/movie.douban.com\/review\/9988100\/",
+			"id": "9988100"
+		},
+		{
+			"rating": {
+				"max": 5,
+				"value": 5.0,
+				"min": 0
+			},
+			"title": "\u201c\u540c\u4eba\u201d\u91ce\u738b\u4e0a\u4f4d\uff01\u65b0\u8001\u5e03\u7f57\u5229\u5f02\u540c+\u5168\u9762\u5bf9\u6bd4",
+			"subject_id": "27607378",
+			"author": {
+				"uid": "dreamfox",
+				"avatar": "http://img3.doubanio.com\/icon\/u2297669-12.jpg",
+				"signature": "\u516c\u4f17\u53f7\uff1adreamcrowfilm",
+				"alt": "https:\/\/www.douban.com\/people\/dreamfox\/",
+				"id": "2297669",
+				"name": "\u4e4c\u9e26\u706b\u5802"
+			},
+			"summary": "\u8bf4\u4e0b\u8fd9\u90e8\u5267\u573a\u7248\uff0c\u4e24\u4e2a\u539f\u56e0\uff0c\u5176\u4e00\u300a\u9f99\u73e0\u8d85\uff1a\u5e03\u7f57\u5229\u300b\u5728\u9f99\u73e0\u5267\u573a\u7248\u91cc\u7684\u6c34\u51c6\u6570\u4e00\u6570\u4e8c\uff0c\u662f\u6211\u770b\u8fc7\u6700\u597d\u7684\u5267\u573a\u7248\u4e4b\u4e00\u4e86\uff08\u4e2a\u4eba\u5fc3\u76ee\u4e2d\u6700\u597d\u7684\u9f99\u73e0\u5267\u573a\u7248\u662f\u6253\u53e4\u62c9\u7684\u90a3\u4e2a\u300a\u6700\u5f3a\u5bf9\u6700\u5f3a\u300b\uff09\u3002\u5176\u4e8c\u5c31\u662f\u4e2a\u4eba\u6bd4\u8f83\u559c\u6b22\u5e03\u7f57\u5229\u8fd9\u4e2a\u89d2...",
+			"alt": "https:\/\/movie.douban.com\/review\/10002781\/",
+			"id": "10002781"
+		},
+		{
+			"rating": {
+				"max": 5,
+				"value": 3.0,
+				"min": 0
+			},
+			"title": "\u5439\u5267\u60c5\u7684\u8d76\u7d27\u6b47\u6b47\uff0c\u955c\u5934\u53ef\u4ee5\u5439\u4e00\u6ce2",
+			"subject_id": "27607378",
+			"author": {
+				"uid": "168341915",
+				"avatar": "http://img3.doubanio.com\/icon\/u168341915-3.jpg",
+				"signature": "",
+				"alt": "https:\/\/www.douban.com\/people\/168341915\/",
+				"id": "168341915",
+				"name": "2x WNZ"
+			},
+			"summary": "\u8fd9\u4e48\u9ad8\u5206\u8fd8\u4ee5\u4e3a\u51fa\u4e86\u4ec0\u4e48\u795e\u4f5c\uff0c\u539f\u6765\u8fd8\u662f\u60c5\u6000\uff0c\u8001\u4eba\u7269\uff0c\u8001\u7c89\u4e1d\u90fd\u77e5\u9053\u7684\u90a3\u70b9\u4e8b\u3002\u7f16\u4e86\u51e0\u53e5\u5e03\u7f57\u5229\u7684\u8eab\u4e16\uff0c\u88ab\u5439\u6210\u4e86\u6709\u8840\u6709\u8089\uff1f\u771f\u641e\u7b11\u3002\u5267\u60c5\u5c31\u662f\u6751\u91cc\u5a03\u6253\u5b57\u4e0d\u8ba4\u8bc6\u51e0\u4e2a\uff0c\u8dd1\u5230\u5927\u57ce\u5e02\u77ac\u95f4\u8d85\u8d8a\u4e86\u534e\u5c14\u8857\u7cbe\u82f1\u4eec\u51e0\u5341\u5e74\u7684\u77e5\u8bc6\u4e0e...",
+			"alt": "https:\/\/movie.douban.com\/review\/9989464\/",
+			"id": "9989464"
+		},
+		{
+			"rating": {
+				"max": 5,
+				"value": 4.0,
+				"min": 0
+			},
+			"title": "\u300a\u9f99\u73e0\u8d85\uff1a\u5e03\u7f57\u5229\u300b\u7684\u65f6\u95f4\u7ebf\u4e0e\u63d0\u4f9b\u7684\u7ec6\u8282",
+			"subject_id": "27607378",
+			"author": {
+				"uid": "4454692",
+				"avatar": "http://img3.doubanio.com\/icon\/u4454692-3.jpg",
+				"signature": "",
+				"alt": "https:\/\/www.douban.com\/people\/4454692\/",
+				"id": "4454692",
+				"name": "\u516b\u722a"
+			},
+			"summary": "15\u5e74\u5199\u8fc7\u4e00\u7bc7\u300a\u9f99\u73e0Z\uff1a\u590d\u6d3b\u7684\u5f17\u5229\u8428\u300b\u7684\u5f71\u8bc4\u3002https:\/\/movie.douban.com\/review\/7626749 \u56e0\u4e3a\u5f53\u65f6\u300a\u9f99\u73e0\u8d85\u300b\u8fd8\u6ca1\u6709\u64ad\u653e\uff0c\u6240\u4ee5\u662f\u7ad9\u5728\u9f99\u73e0\u5f53\u65f6\u4e3b\u65f6\u95f4\u7ebf\u7684\u89c2\u70b9\u4e0a\u5199\u4e0b\u7684\u5f71\u8bc4\u3002\u968f\u7740\u300a\u9f99\u73e0\u8d85\u300b\u7684\u64ad\u653e\uff0c\u4e0d\u5c11\u670b\u53cb\u5f00\u59cb\u7ad9\u5728...",
+			"alt": "https:\/\/movie.douban.com\/review\/9975092\/",
+			"id": "9975092"
+		},
+		{
+			"rating": {
+				"max": 5,
+				"value": 4.0,
+				"min": 0
+			},
+			"title": "\u5267\u60c5\u4e0d\u884c\uff0c\u753b\u9762\u6765\u51d1",
+			"subject_id": "27607378",
+			"author": {
+				"uid": "176658062",
+				"avatar": "http://img3.doubanio.com\/icon\/u176658062-1.jpg",
+				"signature": "",
+				"alt": "https:\/\/www.douban.com\/people\/176658062\/",
+				"id": "176658062",
+				"name": "\u738b\u601d\u68cb"
+			},
+			"summary": "\u5267\u60c5\u4f9d\u65e7\u662f\u628a\u8001\u7248\u9f99\u73e0\u7684\u5e03\u7f57\u5229\u786c\u751f\u751f\u5730\u518d\u7092\u4e86\u4e00\u904d\uff0c\u878d\u5408\u7684\u5931\u8bef\u76f4\u63a5\u632a\u7528\u9f99\u73e0z\uff08\u7279\u5170\u514b\u65af\u548c\u5b59\u609f\u5929\u878d\u5408\uff09 \u6253\u6597\u753b\u98ce\u7684\u786e\u5f88\u8fc7\u763e\uff0c\u4e5f\u8ba9\u540e\u534a\u90e8\u5206\u53ea\u5269\u4e0b\u6253\u6597\u4e86\u3002\u524d\u9762\u5728\u65e7\u7684\u5267\u60c5\u4e2d\u52a0\u5165\u4e86\u65b0\u7684\u7ec6\u8282\uff08\u5173\u4e8e\u5f17\u5229\u8428\u63a5\u624b\u519b\u961f\u3001\u5e03...",
+			"alt": "https:\/\/movie.douban.com\/review\/9983258\/",
+			"id": "9983258"
+		},
+		{
+			"rating": {
+				"max": 5,
+				"value": 5.0,
+				"min": 0
+			},
+			"title": "\u9f99\u73e0\u7cfb\u5217\u6700\u5f3a\u5267\u573a\u7248\u6ca1\u6709\u4e4b\u4e00",
+			"subject_id": "27607378",
+			"author": {
+				"uid": "179646560",
+				"avatar": "http://img3.doubanio.com\/icon\/u179646560-2.jpg",
+				"signature": "",
+				"alt": "https:\/\/www.douban.com\/people\/179646560\/",
+				"id": "179646560",
+				"name": "\u98ce\u4e4b\u5203"
+			},
+			"summary": "\u9f99\u73e0\u8d85\u5e03\u7f57\u5229\u5c06\u4e8e5\u670824\u65e5\u5728\u56fd\u5185\u4e0a\u6620\uff01\uff01\uff01\uff01 \u867d\u7136\u5e03\u7f57\u5229\u662f\u4e1c\u6620\u539f\u521b\u7684\u8001\u89d2\u8272\uff0c\u4f46\u8fd9\u6b21\u7531\u9e1f\u5c71\u660e\u4eb2\u81ea\u64cd\u5200\u91cd\u5851\uff0c\u57fa\u672c\u4e0a\u9664\u4e86\u540d\u5b57\u548c\u7279\u5f81\u4ee5\u5916\u5b8c\u5168\u662f\u4e24\u4e2a\u4eba\uff0c\u592a\u6709\u4eba\u683c\u9b45\u529b\u4e86\uff0c\u4e0d\u518d\u662f\u4ee5\u524d\u90a3\u4e2a\u53ea\u4f1a\u558a\u5361\u5361\u7f57\u7279\u7684\u75af\u5b50\uff0c\u8fd9\u51b7\u996d...",
+			"alt": "https:\/\/movie.douban.com\/review\/9927768\/",
+			"id": "9927768"
+		},
+		{
+			"rating": {
+				"max": 5,
+				"value": 4.0,
+				"min": 0
+			},
+			"title": "\u5f17\u5229\u8428\u5c45\u7136\u4e5f\u6ca1\u90a3\u4e48\u8ba8\u538c\u4e86",
+			"subject_id": "27607378",
+			"author": {
+				"uid": "LucFrance",
+				"avatar": "http://img3.doubanio.com\/icon\/u1978083-2.jpg",
+				"signature": "\u6625\u7720\u4e0d\u89c9\u5c0f...",
+				"alt": "https:\/\/www.douban.com\/people\/LucFrance\/",
+				"id": "1978083",
+				"name": "Luc"
+			},
+			"summary": "\u679c\u7136\u662f\u9e1f\u5c71\u660e\u4eb2\u81ea\u64cd\u5200\uff0c\u7ec8\u4e8e\u628a\u609f\u7a7a\u524d\u53f2\uff08\u5df4\u514b\u5229\uff09\uff0c\u8d1d\u5409\u5854\u524d\u53f2\uff08\u8d1d\u5409\u5854\u884c\u661f\uff09\uff0c\u5e03\u7f57\u5229\u524d\u53f2\u751a\u81f3\u662f\u5f17\u5229\u8428\u672c\u7eaa\u90fd\u634f\u5408\u5728\u4e86\u4e00\u8d77\u3002 \u4f5c\u4e3a\u5267\u573a\u7248\u8d85\u7ea7\u5927\u53cd\u6d3e\uff0c\u5e03\u7f57\u5229\u8fd9\u6b21\u5851\u9020\u5f97\u66f4\u52a0\u4e30\u6ee1\uff0c\u66b4\u8d70\u524d\u540e\u7684\u72b6\u6001\u5dee\u5f02\u5de8\u5927\uff0c\u8d4b\u4e88\u4e86\u201c...",
+			"alt": "https:\/\/movie.douban.com\/review\/10193511\/",
+			"id": "10193511"
+		},
+		{
+			"rating": {
+				"max": 5,
+				"value": 4.0,
+				"min": 0
+			},
+			"title": "\u51ed\u4ec0\u4e48\u6210\u4e3a\u6700\u5f3a",
+			"subject_id": "27607378",
+			"author": {
+				"uid": "65545761",
+				"avatar": "http://img9.doubanio.com\/icon\/u65545761-6.jpg",
+				"signature": "\u5e99\u5c0f\u5996\u98ce\u5927\uff0c\u6c60\u6d45\u738b\u516b\u591a",
+				"alt": "https:\/\/www.douban.com\/people\/65545761\/",
+				"id": "65545761",
+				"name": "\u6765\u81ea\u2026"
+			},
+			"summary": "\u300a\u9f99\u73e0\u8d85\uff1a\u5e03\u7f57\u5229\u300b\u7ec8\u4e8e\u5728\u56fd\u5185\u4e0a\u6620\u4e86\u3002\u62bd\u7a7a\u53bb\u7535\u5f71\u9662\u4e8c\u5237\uff0c\u771f\u7684\u8981\u611f\u53f9\uff0c\u8fd9\u7b2c20\u90e8\u9f99\u73e0\u5267\u573a\u7248\uff0c\u771f\u7684\u662f\u9f99\u73e0\u53f2\u4e0a\u6700\u5f3a\u5267\u573a\u7248\uff0c\u5373\u4f7f\u653e\u5728\u88ab\u89c6\u5982\u795e\u4f5c\u7684\u300a\u9f99\u73e0Z\u300b\u8c31\u7cfb\u91cc\uff0c\u8fd9\u90e8\u300a\u5e03\u7f57\u5229\u300b\u4e5f\u79f0\u5f97\u4e0a\u662f\u8fd1\u4e4e\u5b8c\u7f8e\u7684\u7ee7\u627f\u8005\u3002 \u987a\u4fbf...",
+			"alt": "https:\/\/movie.douban.com\/review\/10210597\/",
+			"id": "10210597"
+		},
+		{
+			"rating": {
+				"max": 5,
+				"value": 3.0,
+				"min": 0
+			},
+			"title": "\u6765\u4e00\u573a\u66f4\u5355\u7eaf\u7684\u795e\u4ed9\u6253\u67b6",
+			"subject_id": "27607378",
+			"author": {
+				"uid": "godi",
+				"avatar": "http://img3.doubanio.com\/icon\/u2774114-33.jpg",
+				"signature": "Logical Empty and None Else.",
+				"alt": "https:\/\/www.douban.com\/people\/godi\/",
+				"id": "2774114",
+				"name": "\u7a7a\u8bed\u56e0\u660e"
+			},
+			"summary": "\u300a\u9f99\u73e0\u8d85\uff1a\u5e03\u7f57\u5229\u300b\uff1a\u6765\u4e00\u573a\u66f4\u5355\u7eaf\u7684\u795e\u4ed9\u6253\u67b6 \u89c2\u5f71\u8bb0\u5f55=\u7a7a\u8bed\u56e0\u660e \u5728\u300a\u9f99\u73e0\u8d85\uff1a\u5e03\u7f57\u5229\u300b\u4e2d\uff0c\u609f\u7a7a\u7b49\u4eba\u8fce\u6765\u4e86\u7b2c\u4e03\u5b87\u5b99\u8d85\u5f3a\u8d5b\u4e9a\u4eba\u2014\u2014\u6076\u9b54\u7ea7\u8d5b\u4e9a\u4eba\uff0c\u5e03\u7f57\u5229\u3002\u6076\u9b54\u7ea7\u522b\u7684\u8d5b\u4e9a\u4eba\u7684\u7279\u70b9\u662f\uff0c\u5728\u4eba\u578b\u60c5\u51b5\u4e0b\uff0c\u4e0d\u7528\u5316\u8eab\u5de8\u733f\uff0c...",
+			"alt": "https:\/\/movie.douban.com\/review\/10266751\/",
+			"id": "10266751"
+		}
+	],
+	"ratings_count": 40909,
+	"aka": [
+		"\u9f99\u73e0\u8d85\u5267\u573a\u7248\uff1a\u5e03\u6d1b\u5c3c(\u6e2f)",
+		"Dragon Ball Super: Broly",
+		"Dragon Ball Super: The Movie - Broly"
+	]
+}
