@@ -10,6 +10,11 @@ DOUBAN_MOVIE_SEARCH = "https://movie.douban.com/j/subject_suggest?q=%s"
 DOUBAN_MOVIE_SUBJECT = DOUBAN_MOVIE_URL + 'subject/%s?apikey=' + DOUBAN_API_KEY
 #DOUBAN_MOVIE_BASE = 'http://movie.douban.com/subject/%s/'
 
+# My server config
+my_server = "www.cnyanpan.top:8080/"
+DOUBAN_CELEBRITIES = my_server + "/celebrities?id=%s"
+DOUBAN_EPISODES = my_server + "/episodes?id=%s&episodes=%s"
+
 def Start():
 	HTTP.CacheTime = CACHE_1WEEK
 
@@ -107,11 +112,13 @@ class DoubanAgent(Agent.Movies):
 			meta_director.photo = director["avatars"]["large"]
 
 		# Roles 
+		celebrities = JSON.ObjectFromURL(DOUBAN_CELEBRITIES % metadata.id, sleep=2.0)
 		metadata.roles.clear()
-		for cast in m['casts']:
+		for cast in celebrities['casts']:
 			meta_role = metadata.roles.new()
 			meta_role.name = cast["name"]
-			meta_role.photo = cast["avatars"]["large"]
+			meta_role.role = cast["role"]
+			meta_role.photo = cast["photos"]
 
 		# Poster
 		if len(metadata.posters.keys()) == 0:
@@ -127,7 +134,6 @@ class Douban(Agent.TV_Shows):
 	contributes_to = ['com.plexapp.agents.thetvdb']
 
 	def search(self, results, media, lang):
-		Log(" giakefagnakj,g")
 		search_str = String.Quote(media.show)
 		rt = JSON.ObjectFromURL(DOUBAN_MOVIE_SEARCH % search_str, sleep=2.0, cacheTime=CACHE_1HOUR * 3)
 		Log(DOUBAN_MOVIE_SEARCH % search_str)
@@ -199,14 +205,28 @@ class Douban(Agent.TV_Shows):
 			metadata.countries.add(country)
 
 		# Roles 
+		celebrities = JSON.ObjectFromURL(DOUBAN_CELEBRITIES % metadata.id, sleep=2.0)
 		metadata.roles.clear()
-		for cast in m['casts']:
+		for cast in celebrities['casts']:
 			meta_role = metadata.roles.new()
 			meta_role.name = cast["name"]
-			meta_role.photo = cast["avatars"]["large"]
+			meta_role.role = cast["role"]
+			meta_role.photo = cast["photos"]
 
 		# Poster
 		if len(metadata.posters.keys()) == 0:
 			poster_url = m['images']['large']
 			thumb_url = m['images']['small']
 			metadata.posters[poster_url] = Proxy.Preview(HTTP.Request(thumb_url), sort_order=1)
+
+		# Episodes
+		# Can get each episode in one page to parallelize
+		# Need to modify the api
+		episodes = JSON.ObjectFromURL(DOUBAN_EPISODES % (metadata.id, m["episodes_count"]))
+		# Set the season default value as 1
+		# How to deal with the different season in Douban?
+		for i in range(int(m["episodes_count"])):
+			key = str(i+1)
+			episode = metadata.seasons[season_number].episodes[key]
+			episode.title = episodes[key]["name"]
+			episode.summary = episodes[key]["intro"]
