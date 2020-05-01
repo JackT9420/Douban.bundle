@@ -116,7 +116,7 @@ class DoubanAgent(Agent.Movies):
 		for cast in celebrities['casts']:
 			meta_role = metadata.roles.new()
 			meta_role.name = cast["name"]
-			if role in cast:
+			if "role" in cast:
 				meta_role.role = cast["role"]
 			meta_role.photo = cast["photo"]
 
@@ -210,7 +210,7 @@ class Douban(Agent.TV_Shows):
 		for cast in celebrities['casts']:
 			meta_role = metadata.roles.new()
 			meta_role.name = cast["name"]
-			if role in cast:
+			if "role" in cast:
 				meta_role.role = cast["role"]
 			meta_role.photo = cast["photo"]
 
